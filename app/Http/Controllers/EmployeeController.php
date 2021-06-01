@@ -64,4 +64,7 @@ class EmployeeController extends Controller
     {
         return view('employee.profile');
     }
+    public function test(){
+        echo "Hello";
+    }
 }
